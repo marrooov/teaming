@@ -17,11 +17,15 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        body: Center(
-          child: Text(
-            'Hello, World!',
-            style: TextStyle(fontSize: 24),
-          ),
+        body: Column(
+          children: [
+            Center(
+              child: Text(
+                'Hello, World!',
+                style: TextStyle(fontSize: 24),
+              ),
+            ),
+          ],
         ),
       ),
     );
