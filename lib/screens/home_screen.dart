@@ -28,6 +28,7 @@ class HomeScreen extends StatelessWidget {
               Center(
                 child: Text('Marwan is here!!', style: TextStyle(fontSize: 24)),
               ),
+              Container(color: Colors.red, width: 100, height: 100),
             ],
           ),
         ),
