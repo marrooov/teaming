@@ -25,6 +25,13 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(fontSize: 24),
               ),
             ),
+            Center(
+              child: Text(
+                'Mariam Emad',
+                style: TextStyle(fontSize: 24),
+              ),
+            ),
+
           ],
         ),
       ),
