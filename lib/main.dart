@@ -24,16 +24,14 @@ class MyApp extends StatelessWidget {
               child: Text('Muhammed hany', style: TextStyle(fontSize: 24)),
             ),
             Center(
-              child: Text(
-                'Mariam Emad',
-                style: TextStyle(fontSize: 24),
-              ),
+              child: Text('Muhammed hany', style: TextStyle(fontSize: 24)),
             ),
             Center(
-              child:Text(
-                'Marwan is here!!',
-                style: TextStyle(fontSize: 24),
-              ),
+              child: Text('Muhammed hany', style: TextStyle(fontSize: 24)),
+            ),
+            Center(child: Text('Mariam Emad', style: TextStyle(fontSize: 24))),
+            Center(
+              child: Text('Marwan is here!!', style: TextStyle(fontSize: 24)),
             ),
           ],
         ),
