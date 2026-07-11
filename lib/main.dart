@@ -33,6 +33,7 @@ class MyApp extends StatelessWidget {
             Center(
               child: Text('Marwan is here!!', style: TextStyle(fontSize: 24)),
             ),
+            Container(width: 30, height: 50, color: Colors.blue),
           ],
         ),
       ),
