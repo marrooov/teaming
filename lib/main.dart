@@ -12,18 +12,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: Scaffold(
         body: Column(
           children: [
             Center(
-              child: Text(
-                'Hello, World!',
-                style: TextStyle(fontSize: 24),
-              ),
+              child: Text('Hello, World!', style: TextStyle(fontSize: 24)),
+            ),
+            Center(
+              child: Text('Muhammed hany', style: TextStyle(fontSize: 24)),
             ),
             Center(
               child: Text(
@@ -37,4 +35,4 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
-  }
+}
